@@ -13,8 +13,8 @@ header {
 nav {
   margin: 1rem auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 button {
@@ -136,6 +136,10 @@ footer #smileFace {
 }
 
 @media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
   .hero {
     position: relative;
   }
@@ -168,6 +172,10 @@ footer #smileFace {
 }
 
 @media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
+
   .hero .hero-bg {
     min-height: 750px;
   }
