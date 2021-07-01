@@ -172,6 +172,12 @@ footer #smileFace {
     min-height: 750px;
   }
 
+  .hero .hero-content {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+  }
+
   .card {
     padding: 1.5rem;
   }
